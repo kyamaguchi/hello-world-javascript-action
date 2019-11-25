@@ -2,6 +2,10 @@
 
 This action prints "Hello World" or "Hello" + the name of a person to greet to the log.
 
+## References
+
+https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-a-javascript-action#commit-and-push-your-action-to-github
+
 ## Inputs
 
 ### `who-to-greet`
