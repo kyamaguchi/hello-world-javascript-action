@@ -14,8 +14,8 @@ try {
   console.log(`The event payload: ${payload}`);
 
   console.log(`Commands from custom action`);
-  await exec.exec('pwd');
-  await exec.exec('ls -al');
+  exec.exec('pwd');
+  exec.exec('ls -al');
 } catch (error) {
   core.setFailed(error.message);
 }
