@@ -16,6 +16,9 @@ try {
   console.log(`Commands from custom action`);
   exec.exec('pwd');
   exec.exec('ls -al');
+  exec.exec('ls -al vendor');
+  exec.exec('which ruby');
+  exec.exec('ruby -v');
 } catch (error) {
   core.setFailed(error.message);
 }
